@@ -1,13 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital@1&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
-nav a{
+nav a {
 text-align: center;
 color:#2F4F4F;
 font-weight: bolder;
 text-decoration: none;
+padding: 35px;
 }
 
 #hero-msg , h1 {
@@ -18,25 +21,35 @@ text-decoration: none;
     text-align: center;
 }
 
-.button-box{
+.button-box {
     text-align: center;
 }
 
-main section{
+main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
     background-color: #2F4F4F;
+    margin-bottom: 25px;
 }
 
 body {
     background-color:#F8F8FF;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #E0FFFF;
+    background-color:  #E0FFFF;
+    font-family: 'Open Sans';
 }
 
 nav a:hover {
@@ -49,6 +62,10 @@ nav a:hover {
     color:#721313;
     font-weight: bolder;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -56,14 +73,12 @@ nav a:hover {
     color: blue
 }
 
-.msg {
-    background-color: #BAF2BB;
-}
-
 footer {
     background-color: #E0FFFF;
     color: black;
     font-weight: bolder;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -77,35 +92,69 @@ footer a:hover {
 
 footer p {
     font-size: 1.2em;
-}
+    }
 
 footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: #2F4F4F;
+    font-family: 'Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif' ;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
     color: blue
 }
 
-.msg h2{
-    color: blue
+h2 {
+    margin: 0;
 }
 
-.msg p{
-    color: #0000CD }
+.msg {
+    background-color: #BAF2BB;
+    font-size: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: blue;
+    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+}
+
+.msg p {
+    color: #0000CD ;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.rivers-card , .camping-card , .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
