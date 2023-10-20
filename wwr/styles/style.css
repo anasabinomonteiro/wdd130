@@ -104,7 +104,8 @@ footer .social img {
 
 .home-title {
     color: #2F4F4F;
-    font-family: 'Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif' ;
+    font-family: 'Playpen Sans';
+    font-weight: 300;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -125,7 +126,7 @@ h2 {
 
 .msg h2 {
     color: blue;
-    font-family: 'Verdana, Geneva, Tahoma, sans-serif';
+    font-family: 'Playpen Sans';
 }
 
 .msg p {
