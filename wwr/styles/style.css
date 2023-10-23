@@ -41,7 +41,7 @@ main section img {
 
 body {
     background-color:#F8F8FF;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', 'Poppins' , 'Open Sans', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ body {
 
 header {
     background-color:  #E0FFFF;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', 'Poppins' , 'Montserrat', sans-serif ;
 }
 
 nav a:hover {
@@ -104,7 +104,7 @@ footer .social img {
 
 .home-title {
     color: #2F4F4F;
-    font-family: 'Playpen Sans';
+    font-family: 'Playpen Sans' , 'Raleway' , 'Montserrat', sans-serif ;
     font-weight: 300;
     font-size: 2em;
     margin-top: 10px;
@@ -126,7 +126,7 @@ h2 {
 
 .msg h2 {
     color: blue;
-    font-family: 'Playpen Sans';
+    font-family: 'Playpen Sans', 'Raleway' , 'Montserrat', sans-serif;
 }
 
 .msg p {
