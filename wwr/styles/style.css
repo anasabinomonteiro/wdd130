@@ -286,12 +286,17 @@ h2 {
 
 .logo_rates{
     margin-left: 35px;
+    
 }    
 
 .page-title{
     font-size: 60px;
     color: #901234;
 }   
+
+#banner-img{
+    margin-left: 180px;
+}
 
 #banner-msg {
     text-align: center;
@@ -322,6 +327,7 @@ h3:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 100px;
+    justify-items: center;
  }
 
  .price-title {
