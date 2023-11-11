@@ -1,0 +1,91 @@
+.background {
+    background-color: black;
+    height: 800px;
+    overflow: visible;
+}
+
+.card {
+    width: 300px;
+    margin-left: 350px;
+}
+
+.image {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    background-color: white;
+    text-align: center;
+}
+
+.container .pg1 {
+    color: #4169E1;
+    font-weight: bold;
+    grid-row: 2/3;
+    margin-top: -5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .pg2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:darkslateblue;
+    margin-top: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    }
+
+.container h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-top: -5px;    
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    background-color: #4169E1;
+    width: 300px;   
+    margin-left: 350px;
+    margin-top: -18px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+.footer .pg2{
+    text-align: center;
+}
+
+.footer .pg3 {
+grid-column: 1/2;
+padding: 30px 30px;
+border-right: 1px solid gold;
+text-align: center;
+
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.footer .pg4 {
+    grid-column: 3/4;
+    margin-left: -18px;
+    border-right: 1px solid gold;   
+    padding: 30px 30px;
+   }
+
+.footer .pg5{
+    grid-column: 5/6;
+    padding: 30px 2px;
+    text-align: center;
+}
+

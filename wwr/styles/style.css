@@ -268,4 +268,82 @@ h2 {
     footer {
         margin-top: 25px;
     }
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+/*Styles from page Dates and Rates*/
+
+#content-rates {
+    max-width: 1600px;
+    margin: 0 auto;
+    }
+
+#logo_link2 {
+    padding-top: 3px;
+    justify-self: center;
+    align-self: center;}
+
+.logo_rates{
+    margin-left: 35px;
+}    
+
+.page-title{
+    font-size: 60px;
+    color: #901234;
+}   
+
+#banner-msg {
+    text-align: center;
+    font-size: larger;
+}
+
+#banner-box {
+    margin: 0 300px 0 300px;
+}
+
+.daily-msg {
+    text-align: center;
+    margin-top: 100px;
+}
+ h3 {
+    text-align: center;
+    color: darkblue;
+    font-family:cursive;
+    font-size: 30px;
+    background-color: #F2E2BA;
+ }
+
+h3:hover{
+    background-color: #F2BAC9;
+} 
+
+ .rates-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+ }
+
+ .price-title {
+    color: gray
+ }
+
+ .price-title:hover{
+    background-color:#F2BAC9 ;
+ }
+
+ .price {
+    color: darkblue
+ }
+
+.price:hover{
+    background-color: #BAF2BB;
+}
+ .rate-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.price-img {
+    border: 10px solid #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
 }
