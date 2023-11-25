@@ -42,6 +42,7 @@ nav a:hover {
 
 h1 {
     text-align: center;
+    font-size: 3em;
 }
 
 #welcome-box {
@@ -55,11 +56,13 @@ h1 {
 }
 
 .h2-welcome{
-    font-size: 100px;
+    font-size: 20px;
     font-family: Lato, sans-serif;
     padding: 15px;
     color:#34435E;
     margin-top: 50px;
+    line-height: 1.5;
+    font-weight: 100;
 }
 
 #program-box {
@@ -77,13 +80,15 @@ h1 {
  }
 
 .h2-program{
-    font-size: 100px;
+    font-size: 20px;
     font-family: Lato, sans-serif;
     padding: 15px;
     grid-column: 1;
     grid-row: 1;
     color:#34435E;
     margin-top: 50px;
+    line-height: 1.5;
+    font-weight: 100;
 }
 
 footer {
