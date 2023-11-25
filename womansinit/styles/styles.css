@@ -58,8 +58,7 @@ h1 {
     font-size: 15px;
     font-family: Lato, sans-serif;
     padding: 15px;
-    line-height: 1.5;
-    font-weight: 100;
+    font-weight: 300;
     color:#34435E;
     margin-top: 50px;
 }
@@ -84,8 +83,7 @@ h1 {
     padding: 15px;
     grid-column: 1;
     grid-row: 1;
-    line-height: 1.5;
-    font-weight: 100;
+    font-weight: 300;
     color:#34435E;
     margin-top: 50px;
 }
