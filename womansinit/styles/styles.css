@@ -239,3 +239,57 @@ h3 {
     font-weight: 100;
     text-align: center;
 }
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+/*CSS Forum&Community Page*/
+
+#banner-img{
+    display: block;
+    margin: 0 auto;
+}
+
+#community-box {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#cute-girl-img {
+    width: 80%;;
+    margin-top: 50px;
+}
+
+.h2-community{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    padding: 15px;
+    color:#34435E;
+    margin-top: 100px;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+#profiles-box {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+#profile-img {
+    width: 100%;   
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 50px;
+ }
+
+.h2-profile{
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    padding: 15px;
+    grid-column: 1;
+    grid-row: 1;
+    color:#34435E;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-weight: 100;
+}
